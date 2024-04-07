@@ -28,9 +28,19 @@ npm install -g @grnsft/if-unofficial-plugins
 Read our detailed guide to [loading plugins](./how-to-import-plugins.md).
 
 ## 3: Create a manifest file
+A manifest file contains all the configuration and input data required to measure your application's energy and carbon impacts and should have a `.yml` extension.
 
-A manifest file contains all the configuration and input data required to measure your application's energy and carbon impacts and should have a `.yml` extension. 
+Begin by generating your initial manifest file with our CLI tool. 
+This tool streamlines the process, asking you questions about your project to automatically create a tailored manifest file.
 
+```sh
+ie --init
+```
+
+Once the manifest file is created, you will need to manually fill in the inputs marked with TODO.
+It's likely that further modifications will be necessary, such as adding or deleting components, to perfectly align the file with your project's needs. For a comprehensive guide on customizing your manifest file and understanding each component's significance, please refer to our detailed guide to [writing manifest files](./how-to-write-manifests.md).
+
+### Understanding the manifest file
 Open the file, add your data and save the file. The simple example below runs a single snapshot observation through a single plugin.
 
 ```yaml
