@@ -18,7 +18,7 @@ const config = {
   organizationName: "Green-Software-Foundation",
   // Change to GitHub repo name.
   projectName: "ief",
-  deploymentBranch: "gh-pages",
+  deploymentBranch: "deploy",
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -33,7 +33,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           // Change this to your repo.
-          editUrl: "https://github.com/Green-Software-Foundation/if-docs/edit/master",
+          editUrl: "https://github.com/fapfaff/if-docs/edit/deploy",
         },
         blog: false,
         theme: {
